@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #2b2a33; /* Dark background for contrast */
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .card {
+    background-color: #4a4e69; /* Muted purple for card */
+    width: 30%; /* Slightly wider for better visibility */
+    height: auto;
+    margin: 100px auto;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); /* Shadow effect */
+    padding: 20px;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .container input {
+    height: 35px;
+    width: 250px;
+    border-radius: 30px;
+    border: 2px solid #9a8c98;
+    padding: 5px 15px;
+    outline: none;
+    font-size: 1rem;
+    color: #22223b;
+    background-color: #f2e9e4;
+    transition: all 0.3s ease;
+  }
+  
+  .container input:focus {
+    border-color: #4a4e69;
+    box-shadow: 0 0 10px rgba(74, 78, 105, 0.5);
+    background-color: #ffffff;
+  }
+  
+  .container input::placeholder {
+    color: #9a8c98;
+    font-style: italic;
+  }
+  
+  .search {
+    margin-left: 4px; /* Adjusts spacing between input and button */
+    border: none;
+    background-color: #4a4e69; /* Button background color */
+    border-radius: 30px; /* Rounded edges to match the input */
+    height: 35px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .search img {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .search:hover {
+    background-color: #22223b; /* Darker shade on hover */
+  }
+  
+  
+  .main-img {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+  }
+  
+  .main-img img {
+    height: 70px;
+    width: 70px;
+  }
+  
+  .temperature {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .temperature .temp {
+    font-size: 3.5rem;
+    color: #f2e9e4; /* Light color for text */
+    font-weight: bold;
+  }
+  
+  .city-name {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .city-name .city {
+    font-size: 2rem;
+    color: #f2e9e4;
+    text-shadow: 1px 1px 2px #000; /* Subtle shadow for depth */
+  }
+  
+  .information {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    align-items: center;
+  }
+  
+  .col1, .col2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 45%;
+    gap: 8px;
+    background-color: #22223b; /* Darker background for contrast */
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .col1 img, .col2 img {
+    height: 35px;
+    width: 35px;
+  }
+  
+  .col1 .humidity, .col2 .wind {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #c9ada7; /* Complementary color */
+  }
+  
+  .humidity-label, .wind-label {
+    color: #f2e9e4;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
