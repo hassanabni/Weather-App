@@ -2,4 +2,4 @@
 Weather app built with HTML, CSS and JavaScript.
 
 
-You can search any city name and tis will provide you with accurate results.
+You can search any city name and this will provide you with accurate results.
